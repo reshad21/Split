@@ -20,6 +20,7 @@ ul {
 
 .dashboard-wrapper-sec {
   display: flex;
+  padding-top: 10px;
 }
 /* --------------- */
 .dsh-menu-prt {
@@ -104,4 +105,48 @@ ul {
 }
 /* ---------------------- */
 .dsh-element-section {
+  /* background-color: sandybrown; */
+  margin: 0 30px;
+  width: 100%;
+}
+h2.overview {
+  font-size: 30px;
+  font-family: bold;
+  font-family: poppins;
+  font-weight: bold;
+}
+button.overview-btn {
+  border: none;
+  background-color: var(--common-color);
+  color: #fff;
+  font-size: 12px;
+  padding: 9px 51px;
+  border-radius: 8px;
+  letter-spacing: 1.16px;
+  position: relative;
+}
+button.overview-btn::before {
+  content: "+";
+  position: absolute;
+  font-size: 27px;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+button.refresh-btn {
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+.dsh-header-btm {
+  display: flex;
+  gap: 60px;
+}
+.dsh-header-btm h6 {
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.6;
 }
