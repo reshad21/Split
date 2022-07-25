@@ -23,15 +23,12 @@ ul {
   padding-top: 10px;
 }
 /* --------------- */
-.dsh-menu-prt {
-}
+
 .dsh-mnu-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
-}
-.dsh-mnu-header img {
 }
 .dsh-mnu-header p {
   font-size: 15px;
@@ -51,8 +48,6 @@ ul {
   letter-spacing: 0.96px;
   opacity: 0.87;
 }
-.dsh-items {
-}
 .dsh-items ul {
   display: flex;
   flex-direction: column;
@@ -69,7 +64,6 @@ ul {
 }
 .dsh-items ul li a .item-dsn {
   position: relative;
-  /* display: flex; */
 }
 
 .dsh-items ul li a .icon-dsn {
@@ -105,7 +99,6 @@ ul {
 }
 /* ---------------------- */
 .dsh-element-section {
-  /* background-color: sandybrown; */
   margin: 0 30px;
   width: 100%;
 }
@@ -159,7 +152,6 @@ button.refresh-btn {
 }
 .dsh-eye-sec .eye-sec-items {
   display: flex;
-  /* gap: 40px; */
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
@@ -167,8 +159,7 @@ button.refresh-btn {
   border-radius: 10px;
   padding: 10px 20px;
 }
-.dsh-eye-sec .eye-sec-items .eye-items-lft {
-}
+
 .dsh-eye-sec .eye-sec-items .eye-items-lft h6 {
   font-size: 17px;
   color: #000000;
@@ -179,8 +170,7 @@ button.refresh-btn {
   font-weight: 600;
   font-family: poppins;
 }
-.dsh-eye-sec .eye-sec-items .eye-items-lft p {
-}
+
 .dsh-eye-sec .eye-sec-items .eye-items-rght {
   background-color: var(--common-color);
   padding: 10px;
@@ -196,10 +186,11 @@ button.refresh-btn {
 .dsh-fitering-sec {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 12px;
+  grid-template-columns: 2fr 2fr 4fr 4fr 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
 }
-.dsh-fitering-sec .fltr-wrp {
-}
+
 .dsh-fitering-sec .fltr-wrp span {
   font-size: 13px;
   color: #000;
@@ -323,4 +314,22 @@ input::-webkit-datetime-edit-fields-wrapper {
   right: 15px;
   top: 42px;
   cursor: pointer;
+}
+
+.dsh-fltr-btn {
+  margin-top: 22px;
+}
+.dsh-fltr-btn button {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+.dsh-fltr-btn button a {
+  display: inline-block;
+  color: #fff;
+  opacity: 0.87;
+  padding: 7px 10px;
 }
