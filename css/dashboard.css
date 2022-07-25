@@ -192,3 +192,72 @@ button.refresh-btn {
 .dsh-eye-sec .eye-sec-items .eye-items-rght i {
   color: #fff;
 }
+
+.dsh-fitering-sec {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.dsh-fitering-sec .fltr-wrp {
+}
+.dsh-fitering-sec .fltr-wrp span {
+  font-size: 13px;
+  color: #000;
+  opacity: 0.8;
+  font-family: poppins;
+  font-weight: 600;
+}
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp {
+  position: relative;
+}
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-caret-down {
+  position: absolute;
+  color: darkorange;
+  font-size: 23px;
+  right: 15px;
+  top: 9px;
+  cursor: pointer;
+}
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-clock {
+  position: absolute;
+  color: #000;
+  font-size: 14px;
+  left: 16px;
+  top: 14px;
+}
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp input {
+  border: none;
+  border-radius: 5px;
+  height: 42px;
+  font-size: 12px;
+  color: black;
+  /* opacity: 0.9; */
+  font-weight: 800;
+  font-family: "Poppins";
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp .fltr-wrap-opt {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp .fltr-wrap-opt.active {
+  display: block;
+}
+.fltr-wrp-drp .fltr-wrap-opt .fltr-wrp-items {
+  padding: 10px;
+  font-size: 12px;
+  color: black;
+  opacity: 0.9;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.fltr-wrp-drp .fltr-wrap-opt .fltr-wrp-items:hover {
+  background-color: var(--common-color);
+  color: #fff;
+  border-radius: 5px;
+}
