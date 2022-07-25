@@ -209,12 +209,17 @@ button.refresh-btn {
 .dsh-fitering-sec .fltr-wrp .fltr-wrp-drp {
   position: relative;
 }
-.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-caret-down {
+
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp::after {
   position: absolute;
-  color: darkorange;
-  font-size: 23px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 8px solid var(--common-color);
   right: 15px;
-  top: 9px;
+  top: 18px;
   cursor: pointer;
 }
 .dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-clock {

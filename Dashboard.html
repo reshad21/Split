@@ -172,7 +172,6 @@
               <span>Hourly</span>
               <div class="fltr-wrp-drp">
                 <i class="far fa-clock"></i>
-                <i class="fas fa-caret-down"></i>
                 <input type="text" placeholder="Hourly" readonly id="hourly" />
                 <div class="fltr-wrap-opt" id="hrlopt">
                   <div class="fltr-wrp-items" onclick="show('html')">html</div>
@@ -190,9 +189,10 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+      let fltrwrp = document.querySelector(".fltr-wrp");
       let hourly = document.querySelector("#hourly");
       let hrlopt = document.querySelector("#hrlopt");
-      hourly.addEventListener("click", function (e) {
+      fltrwrp.addEventListener("click", function (e) {
         e.preventDefault();
         hrlopt.classList.toggle("active");
       });
