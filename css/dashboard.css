@@ -196,6 +196,7 @@ button.refresh-btn {
 .dsh-fitering-sec {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 12px;
 }
 .dsh-fitering-sec .fltr-wrp {
 }
@@ -265,4 +266,61 @@ button.refresh-btn {
   background-color: var(--common-color);
   color: #fff;
   border-radius: 5px;
+}
+
+/* -------------------------
+  date input filed customize
+  -------------------------- */
+.fltr-date input {
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  height: 42px;
+  font-size: 13px;
+  color: black;
+  opacity: 0.5;
+  font-weight: 800;
+  font-family: "Poppins";
+  padding-left: 6px;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.fltr-date span {
+  font-size: 13px;
+  color: #000;
+  opacity: 0.8;
+  font-family: poppins;
+  font-weight: 600;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 5px;
+  font-size: 15px;
+}
+
+input::-webkit-datetime-edit {
+  position: relative;
+  left: 15px;
+}
+
+input::-webkit-datetime-edit-fields-wrapper {
+  position: relative;
+  left: 15px;
+}
+.fltr-date.icon {
+  position: relative;
+}
+.fltr-date.icon::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 8px solid var(--common-color);
+  right: 15px;
+  top: 42px;
+  cursor: pointer;
 }
