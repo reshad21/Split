@@ -192,13 +192,14 @@
     <script>
       let hourly = document.querySelector("#hourly");
       let hrlopt = document.querySelector("#hrlopt");
-      function show(anything) {
-        hourly.value = anything;
-        console.log(hourly);
-      }
-      hourly.addEventListener("click", function () {
+      hourly.addEventListener("click", function (e) {
+        e.preventDefault();
         hrlopt.classList.toggle("active");
       });
+      function show(anything) {
+        hourly.value = anything;
+        hrlopt.classList.remove("active");
+      }
     </script>
   </body>
 </html>
