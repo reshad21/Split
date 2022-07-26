@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <!-- main css -->
-    <link rel="stylesheet" href="css/Spendings.css" />
+    <link rel="stylesheet" href="css/Profile.css" />
 
     <!--responsive media query css -->
     <link rel="stylesheet" href="css/mediaquery.css" />
@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Spendings</title>
+    <title>Profile</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -128,111 +128,76 @@
             <h6>Login As Tayyab Rasheed <i class="fab fa-umbraco"></i></h6>
           </div>
           <!-- ----------------------- -->
-          <div class="spnd-dwnl-sec">
-            <div class="pdf-download">
-              <a href="#">
-                <i class="fa fa-regular fa-file-pdf"></i>
-                <span>Download PDF</span>
-              </a>
-            </div>
-            <div class="pdf-download">
-              <a href="#">
-                <i class="fa fa-regular fa-file-pdf"></i>
-                <span>Download PDF</span>
-              </a>
-            </div>
-            <div class="spnd-filter">
-              <form action="">
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Search By Ads ID"
-                />
-                <input type="submit" value="FILTER" />
-              </form>
-            </div>
+          <div class="profile-section">
+            <form action="" class="">
+              <div class="profile-frm">
+                <div class="form-item email">
+                  <label for="">Email Address</label>
+                  <input type="email" placeholder="tayyab910629@gmail.com" />
+                  <span>Verified</span>
+                </div>
+                <div class="form-item">
+                  <label for="">Company</label>
+                  <input type="text" placeholder="9xtech" />
+                </div>
+                <div class="form-item">
+                  <label for="">Full Name</label>
+                  <input type="text" placeholder="Tayyab Rasheed" />
+                </div>
+                <div class="form-item">
+                  <label for="">Skype</label>
+                  <input type="text" placeholder="Liketayyab786" />
+                </div>
+                <div class="form-item">
+                  <label for="">Phone</label>
+                  <input type="text" placeholder="3365394323" />
+                </div>
+                <div class="form-item password">
+                  <label for="">Current Password</label>
+                  <input type="password" value="FakePSW" />
+                  <span><a href="#">Change Password</a></span>
+                </div>
+              </div>
+
+              <div class="frm-submit-sec">
+                <input type="submit" value="Update Profile" />
+              </div>
+            </form>
           </div>
-          <!-- -------------------------- -->
-          <div class="spnd-data-section">
-            <table>
-              <thead>
-                <tr>
-                  <td>Ads ID Date</td>
-                  <td>Published</td>
-                  <td>Yesterday Spending</td>
-                  <td>Today Spending</td>
-                  <td>Total Spending</td>
-                  <td>Click Received</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-                <tr>
-                  <td>#ADS01231</td>
-                  <td>22 June 22</td>
-                  <td>$538.00</td>
-                  <td>$38</td>
-                  <td>$1,038</td>
-                  <td>5,208</td>
-                </tr>
-              </tbody>
-            </table>
+          <!-- ---------------------------- -->
+          <div class="pfl-dvice-section">
+            <div class="pfl-dvice-hdr">
+              <span>Your Devices</span>
+              <span>Log out on all devices</span>
+            </div>
+            <div class="divice-items">
+              <div class="dvc-items-lft">
+                <div class="dvc-img">
+                  <i class="fas fa-tv"></i>
+                </div>
+                <div class="dvc-dtl">
+                  <h6>Desktop 1</h6>
+                  <span>August 12 at 17.45</span>
+                </div>
+              </div>
+              <div class="dvc-items-rght">
+                <button>Log Out</button>
+              </div>
+            </div>
+            <div class="divice-items">
+              <div class="dvc-items-lft">
+                <div class="dvc-img">
+                  <i class="fas fa-tv"></i>
+                </div>
+                <div class="dvc-dtl">
+                  <h6>Desktop 1</h6>
+                  <span>August 12 at 17.45</span>
+                </div>
+              </div>
+              <div class="dvc-items-rght">
+                <button>Log Out</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

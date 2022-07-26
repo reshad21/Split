@@ -144,44 +144,6 @@ button.refresh-btn {
   color: #000000;
   opacity: 0.6;
 }
-.dsh-eye-sec {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 10px;
-  margin-bottom: 10px;
-}
-.dsh-eye-sec .eye-sec-items {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  box-shadow: 1px 2px 3px #ddd;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
-
-.dsh-eye-sec .eye-sec-items .eye-items-lft h6 {
-  font-size: 17px;
-  color: #000000;
-  opacity: 0.6;
-}
-.dsh-eye-sec .eye-sec-items .eye-items-lft span {
-  font-size: 24px;
-  font-weight: 600;
-  font-family: poppins;
-}
-
-.dsh-eye-sec .eye-sec-items .eye-items-rght {
-  background-color: var(--common-color);
-  padding: 10px;
-  border-radius: 50%;
-  width: 41px;
-  height: 41px;
-  text-align: center;
-}
-.dsh-eye-sec .eye-sec-items .eye-items-rght i {
-  color: #fff;
-}
 
 /*=========================
      spendings page style
@@ -255,5 +217,9 @@ button.refresh-btn {
 }
 .spnd-data-section table tbody {
 }
-.spnd-data-section table tbody tr {}
-.spnd-data-section table tbody tr td {border-bottom: 2px solid #bebbbb;padding: 10px;}
+.spnd-data-section table tbody tr {
+}
+.spnd-data-section table tbody tr td {
+  border-bottom: 2px solid #bebbbb;
+  padding: 10px;
+}
