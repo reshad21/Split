@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/Campaigns.css" />
+
+    <!--responsive media query css -->
+    <link rel="stylesheet" href="css/mediaquery.css" />
+
+    <!-- font awosome -->
+    <script
+      src="https://kit.fontawesome.com/1e7710cd21.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Campaigns</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="dashboard-wrapper-sec">
+        <div class="dsh-menu-prt">
+          <div class="dsh-mnu-header">
+            <img src="img/Logo.png" alt="" />
+            <p>Balance : $520</p>
+            <button>Add Funds</button>
+          </div>
+          <div class="dsh-items">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="fas fa-home"></i>
+                    </div>
+                    <button>Overview</button>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <button>Campaigns</button>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                    <button>Analytics</button>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <button>Spendings</button>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="far fa-calendar-check"></i>
+                    </div>
+                    <button>New Campaign</button>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <button>Billing History</button>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="item-dsn">
+                    <div class="icon-dsn">
+                      <i class="far fa-user"></i>
+                    </div>
+                    <button>Profile</button>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dsh-element-section">
+          <div class="dsh-header-sec">
+            <div class="d-flex align-items-center">
+              <div class="flex-grow-1">
+                <h2 class="overview">Stats Overview</h2>
+              </div>
+              <div class="p-2">
+                <button class="overview-btn">NEW CAMPAIGN</button>
+              </div>
+              <div class="p-2">
+                <button class="refresh-btn">REFRESH</button>
+              </div>
+            </div>
+          </div>
+          <!-- ----------------------- -->
+          <div class="dsh-header-btm">
+            <h6>Welcome to Split Traffic Campaign Dashboard</h6>
+            <h6>Login As Tayyab Rasheed <i class="fab fa-umbraco"></i></h6>
+          </div>
+          <!-- ----------------------- -->
+          <div class="dsh-fitering-sec">
+            <div class="fltr-wrp">
+              <span>Hourly</span>
+              <div class="fltr-wrp-drp">
+                <div class="fltr-hrly-head">
+                  <i class="far fa-clock"></i>
+                  <input
+                    type="text"
+                    placeholder="Hourly"
+                    readonly
+                    id="hourly"
+                  />
+                </div>
+                <div class="fltr-wrap-opt" id="hrlopt">
+                  <div class="fltr-wrp-items" onclick="show('html')">html</div>
+                  <div class="fltr-wrp-items" onclick="show('css')">css</div>
+                  <div class="fltr-wrp-items" onclick="show('php')">php</div>
+                  <div class="fltr-wrp-items" onclick="show('js')">js</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fltr-date icon">
+              <span>Date</span>
+              <div class="fltr-date">
+                <input type="date" id="birthday" name="birthday" />
+              </div>
+            </div>
+
+            <div class="fltr-wrp">
+              <span>Campaigns</span>
+              <div class="fltr-wrp-drp">
+                <div class="fltr-hrly-head">
+                  <i class="far fa-clock"></i>
+                  <input
+                    type="text"
+                    placeholder="Campaigns"
+                    readonly
+                    id="hourly"
+                  />
+                </div>
+                <div class="fltr-wrap-opt" id="hrlopt">
+                  <div class="fltr-wrp-items" onclick="show('html')">html</div>
+                  <div class="fltr-wrp-items" onclick="show('css')">css</div>
+                  <div class="fltr-wrp-items" onclick="show('php')">php</div>
+                  <div class="fltr-wrp-items" onclick="show('js')">js</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fltr-wrp">
+              <span>Traffic Sources</span>
+              <div class="fltr-wrp-drp">
+                <div class="fltr-hrly-head">
+                  <i class="far fa-clock"></i>
+                  <input
+                    type="text"
+                    placeholder="Traffic Sources"
+                    readonly
+                    id="hourly"
+                  />
+                </div>
+                <div class="fltr-wrap-opt" id="hrlopt">
+                  <div class="fltr-wrp-items" onclick="show('html')">html</div>
+                  <div class="fltr-wrp-items" onclick="show('css')">css</div>
+                  <div class="fltr-wrp-items" onclick="show('php')">php</div>
+                  <div class="fltr-wrp-items" onclick="show('js')">js</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="dsh-fltr-btn">
+              <button><a href="#">Show</a></button>
+            </div>
+          </div>
+          <!-- ------------------------- -->
+          <div class="campaigns-wrapper-section">
+            <div class="campaigns-items">
+              <div class="campaigns-header">
+                <span>Chance</span>
+                <span>ID : 4004</span>
+              </div>
+
+              <div class="campaigns-body">
+                <div class="part-one">
+                  <div class="prt-one-lft">
+                    <!-- <span>68%</span> -->
+                  </div>
+                  <div class="prt-one-rght">
+                    <h3>Test Campaign for Design</h3>
+                    <h4>
+                      <i class="fas fa-check"></i>Published on 22 June, 2022
+                    </h4>
+                  </div>
+                </div>
+                <div class="part-two">
+                  <span>$63.04</span>
+                  <span>Daily Budget</span>
+                </div>
+                <div class="part-three">
+                  <span>$0.63</span>
+                  <span>Bid</span>
+                </div>
+                <div class="part-four">
+                  <label class="switch">
+                    <input type="checkbox" checked />
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+                <div class="part-five">
+                  <div class="dropdown" id="cmpdrpdwn">
+                    <input type="text" placeholder="Action" readonly />
+                  </div>
+                  <div class="dropdown-item-wrap" id="cmpdrpdwnitem">
+                    <ul>
+                      <li>
+                        <i class="fas fa-door-open"></i>
+                        <a href="#">Starts</a>
+                      </li>
+                      <li>
+                        <i class="fas fa-mouse"></i>
+                        <a href="#">Clicks</a>
+                      </li>
+                      <li>
+                        <i class="fas fa-sync-alt"></i>
+                        <a href="#">Update</a>
+                      </li>
+                      <li>
+                        <i class="far fa-clone"></i>
+                        <a href="#">Duplicate</a>
+                      </li>
+                      <li>
+                        <i class="fas fa-trash"></i>
+                        <a href="#">Delete</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="campaigns-ftr">
+                <span
+                  ><i class="far fa-clone"></i>
+                  https://test.com/Campaigns2..</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // let fltrwrpdrp = document.querySelector(".fltr-wrp-drp");
+      // let hourly = document.querySelector("#hourly");
+      // let hrlopt = document.querySelector("#hrlopt");
+      // fltrwrpdrp.addEventListener("click", function (e) {
+      //   e.preventDefault();
+      //   hrlopt.classList.toggle("active");
+      // });
+      // function show(anything) {
+      //   hourly.value = anything;
+      //   hrlopt.classList.remove("active");
+      // }
+
+      let fltrwrpdrp = document.querySelectorAll(".fltr-wrp-drp");
+      let hourly = document.querySelectorAll("#hourly");
+      let hrlopt = document.querySelectorAll("#hrlopt");
+
+      for (let i = 0; i < fltrwrpdrp.length; i++) {
+        const item = fltrwrpdrp[i];
+        item.addEventListener("click", function (e) {
+          e.preventDefault();
+          hrlopt[i].classList.toggle("active");
+        });
+
+        function show(anything) {
+          hourly[i].value = anything;
+          hrlopt[i].classList.remove("active");
+        }
+      }
+
+      console.log(hrlopt);
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+<!-- 
+<div class="container-fluid">
+  <div class="container"></div>
+</div> -->

@@ -149,13 +149,11 @@ button.refresh-btn {
 /*=========================
      profile page style
  ========================== */
-.profile-section {
-}
+
 .profile-section form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* justify-content: center; */
 }
 .profile-section .profile-frm {
   display: grid;
@@ -181,14 +179,6 @@ button.refresh-btn {
   outline: none;
   border: 1px solid #13131340;
   padding: 0 20px;
-}
-.profile-section .profile-frm .form-item input[type="email"] {
-}
-.profile-section .profile-frm .form-item input[type="email"]::after {
-}
-.profile-section .profile-frm .form-item input[type="text"] {
-}
-.profile-section .profile-frm .form-item input[type="password"] {
 }
 
 .form-item.email {
@@ -269,16 +259,14 @@ button.refresh-btn {
   display: flex;
   gap: 20px;
 }
-.divice-items .dvc-items-lft .dvc-img {
-}
+
 .divice-items .dvc-items-lft .dvc-img i {
   background-color: #ddd;
   padding: 10px;
   border-radius: 48%;
   color: orangered;
 }
-.divice-items .dvc-items-lft .dvc-dtl {
-}
+
 .divice-items .dvc-items-lft .dvc-dtl h6 {
   font-size: 15px;
   font-family: poppins;
