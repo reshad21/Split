@@ -1,15 +1,17 @@
-// let cmpdrpdwn = document.querySelector('#cmpdrpdwn');
-// let cmpdrpdwnitem = document.querySelector('#cmpdrpdwnitem');
+// let cmpdrpdwn = document.querySelectorAll('#cmpdrpdwn');
+// let cmpdrpdwnitem = document.querySelectorAll('#cmpdrpdwnitem');
 
-// cmpdrpdwns.forEach(cmpdrpdwn => {
-//     cmpdrpdwn.addEventListener('click', function () {
-//         cmpdrpdwnitems.forEach(cmpdrpdwnitem => {
-//             cmpdrpdwnitem.classList.toggle('active');
+// cmpdrpdwn.forEach(element => {
+//     element.addEventListener('click',function(){
+//         cmpdrpdwnitem.forEach(item => {
+//             console.log(item);
 //         })
 //     })
 // })
 
-// ================campaigns page code============== //
+
+
+// ===============campaigns page code============== //
 function campaigns(){
     let cmpdrpdwns = document.querySelectorAll('#cmpdrpdwn');
     let cmpdrpdwnitems = document.querySelectorAll('#cmpdrpdwnitem');
