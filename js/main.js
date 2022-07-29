@@ -1,15 +1,3 @@
-// let cmpdrpdwn = document.querySelectorAll('#cmpdrpdwn');
-// let cmpdrpdwnitem = document.querySelectorAll('#cmpdrpdwnitem');
-
-// cmpdrpdwn.forEach(element => {
-//     element.addEventListener('click',function(){
-//         cmpdrpdwnitem.forEach(item => {
-//             console.log(item);
-//         })
-//     })
-// })
-
-
 
 // ===============campaigns page code============== //
 function campaigns(){
@@ -28,8 +16,12 @@ campaigns();
 let toggleSection = document.querySelector('#toggle-section');
 let toggleIcon = document.querySelector('#toggle-icon');
 let logoSec = document.querySelector('.logo-sec');
+
 let clpsstore = document.querySelector('#clps-store');
 let mainstore = document.querySelector('#main-store');
+
+let mainstoretwo = document.querySelector('#main-store-2');
+let clpsstoretwo = document.querySelector('#clps-store-2');
 
 toggleIcon.addEventListener('click',function(e){
     e.preventDefault();
@@ -38,7 +30,17 @@ toggleIcon.addEventListener('click',function(e){
     toggleIcon.classList.toggle('active');
     clpsstore.classList.toggle('collaps');
     mainstore.classList.toggle('active');
+
+    clpsstoretwo.classList.toggle('collaps');
+    mainstoretwo.classList.toggle('active');
+   
 })
+
+
+
+
+
+
 
 
 
