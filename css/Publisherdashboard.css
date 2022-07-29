@@ -205,6 +205,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  border-right: 2px solid #2222222e;
+  padding-right: 18px;
 }
 .admin-name-dropdown {
   position: absolute;
