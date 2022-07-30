@@ -65,8 +65,8 @@ body {
 }
 
 /* =================
-      store-sec
-  ================== */
+        store-sec
+    ================== */
 .store-sec.active {
   display: none;
 }
@@ -135,8 +135,8 @@ body {
 }
 
 /* =====================
-      wrp-dshb-rght
-  ====================== */
+        wrp-dshb-rght
+    ====================== */
 .wrp-dshb-rght {
   padding: 30px 30px 0px 60px;
 }
@@ -181,7 +181,8 @@ body {
   align-items: center;
   gap: 15px;
 }
-
+.pbsr-dsh-admin .admin-img {
+}
 .pbsr-dsh-admin .admin-img img {
   width: 40px;
   height: 40px;
@@ -198,6 +199,8 @@ body {
   display: block;
 }
 
+.pbsr-dsh-admin .notification {
+}
 .pbsr-dsh-admin .admin-name {
   position: relative;
   display: flex;
@@ -212,7 +215,8 @@ body {
   padding: 3px 0px;
   top: 25px;
 }
-
+.admin-name-dropdown ul {
+}
 .admin-name-dropdown ul li {
   border-bottom: 1px solid #22222285;
 }
@@ -235,8 +239,8 @@ body {
 }
 
 /* ======================================
-    dashbord header bottom section start
-  ======================================= */
+      dashbord header bottom section start
+    ======================================= */
 .pbsr-hdr-btm {
   margin-top: 43px;
   margin-bottom: 20px;
@@ -252,7 +256,11 @@ body {
 .pbsr-hdr-btm-lft h2 span {
   font-size: 25px;
 }
+.pbsr-hdr-btm-lft .pbsr-hdr-btm h2 span {
+}
 
+.pbsr-hdr-btm-rght {
+}
 .pbsr-hdr-btm-rght a {
   display: inline-block;
   font-size: 14px;
@@ -267,20 +275,22 @@ body {
 }
 
 /* ================================
-    dashbord main article section
-  ================================= */
+      dashbord main article section
+    ================================= */
 .pbsr-dsh-main {
   display: flex;
   justify-content: space-between;
 }
 
 /* -------------------
-      pbsr-dsh-main-lft
-    -------------------- */
+        pbsr-dsh-main-lft
+      -------------------- */
+.pbsr-dsh-main-lft {
+}
 
 /* ------------------------- 
-    pbsr-dsh-main-rght section
-    -------------------------- */
+      pbsr-dsh-main-rght section
+      -------------------------- */
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -339,7 +349,8 @@ body {
   height: 1px;
   background-color: #00000047;
 }
-
+.rcnt-pro-lft {
+}
 .rcnt-pro-lft img {
   width: 40px;
   height: 40px;
@@ -347,7 +358,8 @@ body {
   /* box-shadow: 0px 10px 20px #404040d4; */
   border: 1px solid #22222263;
 }
-
+.rcnt-pro-mdl {
+}
 .rcnt-pro-rght {
   padding-left: 30px;
   padding-right: 10px;
