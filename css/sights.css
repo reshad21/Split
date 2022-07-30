@@ -267,21 +267,94 @@ body {
 }
 
 /* width */
-::-webkit-scrollbar {
+.scrollbar::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+.scrollbar::-webkit-scrollbar-track {
   background: #f1f1f1;
+  width: 8px;
+  height: 8px;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+.scrollbar::-webkit-scrollbar-thumb {
   background: #888;
+  width: 8px;
+  height: 8px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+.scrollbar::-webkit-scrollbar-thumb:hover {
   background: #555;
+  width: 8px;
+  height: 8px;
+}
+
+/* 
+  ====================
+  sights table section
+  ====================
+ */
+
+.sights-data-section {
+  height: 686px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 25px 20px;
+  box-shadow: 0px 30px 40px #0000001a;
+  overflow-y: scroll;
+}
+.sights-data-section table {
+  width: 100%;
+  padding: 25px 20px;
+}
+.sights-data-section table thead {
+}
+.sights-data-section table thead tr {
+}
+.sights-data-section table thead tr td {
+  color: #aaaaaa;
+  font-size: 14px;
+  padding: 0px 0px 20px 10px;
+}
+.sights-data-section table tbody {
+}
+.sights-data-section table tbody tr {
+}
+.sights-data-section table tbody tr:nth-child(2n) {
+  background-color: #0000000d;
+}
+.sights-data-section table tbody tr td {
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.54px;
+  font-weight: 600;
+  padding: 10px 0 10px 10px;
+}
+
+.smpl-data-lft img {
+  width: 30px;
+  height: 32px;
+  border: 1px solid #222;
+  border-radius: 4px;
+}
+.smpl-data {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.smpl-data-rght {
+  display: flex;
+  flex-direction: column;
+}
+.smpl-data-rght span {
+  font-size: 12px;
+  color: #000000;
+  opacity: 0.54px;
+}
+.smpl-data-rght span:nth-child(2) {
+  color: #888888;
 }
