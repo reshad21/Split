@@ -181,8 +181,7 @@ body {
   align-items: center;
   gap: 15px;
 }
-.pbsr-dsh-admin .admin-img {
-}
+
 .pbsr-dsh-admin .admin-img img {
   width: 40px;
   height: 40px;
@@ -199,8 +198,6 @@ body {
   display: block;
 }
 
-.pbsr-dsh-admin .notification {
-}
 .pbsr-dsh-admin .admin-name {
   position: relative;
   display: flex;
@@ -215,8 +212,7 @@ body {
   padding: 3px 0px;
   top: 25px;
 }
-.admin-name-dropdown ul {
-}
+
 .admin-name-dropdown ul li {
   border-bottom: 1px solid #22222285;
 }
@@ -256,11 +252,7 @@ body {
 .pbsr-hdr-btm-lft h2 span {
   font-size: 25px;
 }
-.pbsr-hdr-btm-lft .pbsr-hdr-btm h2 span {
-}
 
-.pbsr-hdr-btm-rght {
-}
 .pbsr-hdr-btm-rght a {
   display: inline-block;
   font-size: 14px;
@@ -274,23 +266,6 @@ body {
   font-weight: 600;
 }
 
-/* ================================
-      dashbord main article section
-    ================================= */
-.pbsr-dsh-main {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* -------------------
-        pbsr-dsh-main-lft
-      -------------------- */
-.pbsr-dsh-main-lft {
-}
-
-/* ------------------------- 
-      pbsr-dsh-main-rght section
-      -------------------------- */
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -309,58 +284,4 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-.pbsr-dsh-main-rght {
-  position: relative;
-}
-.pbsr-dsh-main-rght::after {
-  content: "";
-  width: 100%;
-  height: 70px;
-  background-color: #ffffffcc;
-  bottom: 0px;
-  left: 0px;
-  position: absolute;
-  border-radius: 0px 0px 30px 30px;
-}
-.pbsr-rcnt-pro {
-  padding: 20px 15px;
-  max-height: 409px;
-  /* overflow-y: scroll; */
-  background-color: #fff;
-  border-radius: 30px;
-  box-shadow: 0px 30px 40px #0000001a;
-}
-.rcnt-pro-widget {
-  overflow-y: scroll;
-  max-height: 314px;
-}
-.pbsr-rcnt-pro-items {
-  position: relative;
-  padding-bottom: 10px;
-}
-.pbsr-rcnt-pro-items::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 11px;
-  width: 72%;
-  height: 1px;
-  background-color: #00000047;
-}
-.rcnt-pro-lft {
-}
-.rcnt-pro-lft img {
-  width: 40px;
-  height: 40px;
-  border-radius: 7px;
-  /* box-shadow: 0px 10px 20px #404040d4; */
-  border: 1px solid #22222263;
-}
-.rcnt-pro-mdl {
-}
-.rcnt-pro-rght {
-  padding-left: 30px;
-  padding-right: 10px;
 }
