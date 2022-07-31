@@ -319,6 +319,10 @@ body {
   color: #aaaaaa;
   font-size: 14px;
   padding: 0px 0px 20px 10px;
+  border-right: 2px solid #aaaaaa73;
+}
+.sights-data-section table thead tr td:last-child {
+  border-right: none;
 }
 .sights-data-section table tbody {
 }
@@ -333,6 +337,10 @@ body {
   opacity: 0.54px;
   font-weight: 600;
   padding: 10px 0 10px 10px;
+  border-right: 2px solid #aaaaaa70;
+}
+.sights-data-section table tbody tr td:last-child {
+  border: none;
 }
 
 .smpl-data-lft img {
@@ -357,4 +365,14 @@ body {
 }
 .smpl-data-rght span:nth-child(2) {
   color: #888888;
+}
+
+.single-data {
+  color: #158afe;
+  display: inline-block;
+  padding: 2px 24px;
+  background-color: #158afe26;
+  border-radius: 13px;
+  font-size: 11px;
+  font-weight: bold;
 }
