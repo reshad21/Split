@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publisherdashboard</title>
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--responsive media query css -->
+    <link rel="stylesheet" href="css/Payouts.css" />
+
+    <!-- font awosome -->
+    <script
+      src="https://kit.fontawesome.com/1e7710cd21.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper-section">
+      <!-- dashbord left section start -->
+      <div class="wrp-dshb-lft" id="toggle-section">
+        <div class="wrp-lft-header">
+          <div class="logo-sec">
+            <img src="img/Logo.png" alt="" class="img-fluid" />
+            <span>Publisher</span>
+          </div>
+          <div class="toggle-icon" id="toggle-icon">
+            <a href="#"><i class="fa fa-solid fa-bars"></i></a>
+          </div>
+        </div>
+        <!-- store section -->
+        <div class="store-sec" id="main-store">
+          <span
+            style="
+              font-size: 12px;
+              color: #aaaaaa;
+              letter-spacing: 1.5px;
+              display: block;
+              padding-left: 15px;
+              margin-top: 20px;
+            "
+            >STORE</span
+          >
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="fa fa-home pe-3" aria-hidden="true"></i> Dashboard</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fas fa-shopping-cart pe-3"></i> Offers To
+                Promote</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa fas fa-chart-pie pe-3"></i> Insights</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-dollar-sign pe-4"></i> Payouts</a>
+            </li>
+          </ul>
+        </div>
+        <!-- only for collapse time -->
+        <div class="store-sec collaps" id="clps-store">
+          <ul>
+            <li>
+              <a href="#"><i class="fa fa-home pe-3" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fas fa-shopping-cart pe-3"></i> </a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fas fa-chart-pie pe-3"></i> </a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-dollar-sign pe-3"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- store section two-->
+        <div class="store-sec store-sec-two" id="main-store-2">
+          <span
+            style="
+              font-size: 12px;
+              color: #aaaaaa;
+              letter-spacing: 1.5px;
+              display: block;
+              padding-left: 15px;
+              margin-top: 20px;
+            "
+            >SUPPORT</span
+          >
+          <ul>
+            <li class="tickects-item">
+              <span>2</span>
+              <a href="#"><i class="fa fas fa-id-card-alt pe-3"></i> Tickets</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fas fa-exclamation-circle pe-3"></i> FAQ</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- only for collapse time two-->
+        <div class="store-sec store-sec-two collaps" id="clps-store-2">
+          <ul>
+            <li>
+              <a href="#"><i class="fa fas fa-id-card-alt pe-3"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fas fa-exclamation-circle pe-3"></i> </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- logout section -->
+        <div class="logout-sec">
+          <a href="#"><i class="fas fa-record-vinyl"></i></a>
+          <span>Logout</span>
+        </div>
+      </div>
+
+      <!-- dashbord whole right section start -->
+      <div class="wrp-dshb-rght">
+        <!-- dashbord header section start -->
+        <div class="pbsr-dsh-header">
+          <div class="search-box">
+            <a href="#"><i class="fa far fa-search"></i></a>
+            <input type="text" placeholder="Search for a product" />
+          </div>
+          <div class="pbsr-dsh-admin">
+            <div class="admin-img">
+              <img src="img/student-6.png" alt="" />
+            </div>
+            <div class="admin-name">
+              <span id="nameset">Ismail </span>
+              <a href="#" id="admin-toggle"
+                ><i class="fa far fa-angle-down"></i
+              ></a>
+              <div class="admin-name-dropdown" id="admn-name-list">
+                <ul>
+                  <li><a href="#">Sharmin</a></li>
+                  <li><a href="#">akhi</a></li>
+                  <li><a href="#">rohomotpur</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="notification">
+              <i class="fa far fa-bell"></i>
+            </div>
+          </div>
+        </div>
+        <!-- dashbord header section end -->
+
+        <!-- dashbord header bottom section start -->
+        <div class="pbsr-hdr-btm">
+          <div class="pbsr-hdr-btm-lft">
+            <h2>Dashboard <span>PUB</span></h2>
+          </div>
+          <div class="pbsr-hdr-btm-rght">
+            <a href="#"
+              ><i class="fa far fa-calendar-minus pe-2"></i>
+              <span> Fri 17 Jul</span> <i class="fa fas fa-angle-right"></i>
+              <span>Sat 24 Jul</span></a
+            >
+          </div>
+        </div>
+        <!-- dashbord header bottom section end -->
+
+        <!-- dashbord main article section start -->
+        <div class="pbsr-dsh-main">
+          <div class="pbsr-dsh-main-lft"></div>
+          <div class="pbsr-dsh-main-rght">
+            <div class="pbsr-rcnt-pro">
+              <h4 class="mb-4">Recent Promotion</h4>
+              <div class="rcnt-pro-widget">
+                <div
+                  class="pbsr-rcnt-pro-items d-flex justify-content-between gap-3 mb-3"
+                >
+                  <div class="rcnt-pro-lft">
+                    <img src="img/campaign.jpg" alt="" />
+                  </div>
+                  <div class="rcnt-pro-mdl d-flex flex-column">
+                    <span
+                      style="
+                        font-size: 14px;
+                        color: #000000;
+                        font-weight: bold;
+                        letter-spacing: 0.54px;
+                      "
+                      >Campaign 1</span
+                    >
+                    <span style="font-size: 13px; color: #888888"
+                      >ID: 3296810248</span
+                    >
+                  </div>
+                  <div class="rcnt-pro-rght flex-grow-1">
+                    <span
+                      style="font-size: 14px; color: #000000; font-weight: bold"
+                      >$89.00</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="pbsr-rcnt-pro-items d-flex justify-content-between gap-3 mb-3"
+                >
+                  <div class="rcnt-pro-lft">
+                    <img src="img/campaign.jpg" alt="" />
+                  </div>
+                  <div class="rcnt-pro-mdl d-flex flex-column">
+                    <span
+                      style="
+                        font-size: 14px;
+                        color: #000000;
+                        font-weight: bold;
+                        letter-spacing: 0.54px;
+                      "
+                      >Campaign 1</span
+                    >
+                    <span style="font-size: 13px; color: #888888"
+                      >ID: 3296810248</span
+                    >
+                  </div>
+                  <div class="rcnt-pro-rght flex-grow-1">
+                    <span
+                      style="font-size: 14px; color: #000000; font-weight: bold"
+                      >$89.00</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="pbsr-rcnt-pro-items d-flex justify-content-between gap-3 mb-3"
+                >
+                  <div class="rcnt-pro-lft">
+                    <img src="img/campaign.jpg" alt="" />
+                  </div>
+                  <div class="rcnt-pro-mdl d-flex flex-column">
+                    <span
+                      style="
+                        font-size: 14px;
+                        color: #000000;
+                        font-weight: bold;
+                        letter-spacing: 0.54px;
+                      "
+                      >Campaign 1</span
+                    >
+                    <span style="font-size: 13px; color: #888888"
+                      >ID: 3296810248</span
+                    >
+                  </div>
+                  <div class="rcnt-pro-rght flex-grow-1">
+                    <span
+                      style="font-size: 14px; color: #000000; font-weight: bold"
+                      >$89.00</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="pbsr-rcnt-pro-items d-flex justify-content-between gap-3 mb-3"
+                >
+                  <div class="rcnt-pro-lft">
+                    <img src="img/campaign.jpg" alt="" />
+                  </div>
+                  <div class="rcnt-pro-mdl d-flex flex-column">
+                    <span
+                      style="
+                        font-size: 14px;
+                        color: #000000;
+                        font-weight: bold;
+                        letter-spacing: 0.54px;
+                      "
+                      >Campaign 1</span
+                    >
+                    <span style="font-size: 13px; color: #888888"
+                      >ID: 3296810248</span
+                    >
+                  </div>
+                  <div class="rcnt-pro-rght flex-grow-1">
+                    <span
+                      style="font-size: 14px; color: #000000; font-weight: bold"
+                      >$89.00</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="pbsr-rcnt-pro-items d-flex justify-content-between gap-3 mb-3"
+                >
+                  <div class="rcnt-pro-lft">
+                    <img src="img/campaign.jpg" alt="" />
+                  </div>
+                  <div class="rcnt-pro-mdl d-flex flex-column">
+                    <span
+                      style="
+                        font-size: 14px;
+                        color: #000000;
+                        font-weight: bold;
+                        letter-spacing: 0.54px;
+                      "
+                      >Campaign 1</span
+                    >
+                    <span style="font-size: 13px; color: #888888"
+                      >ID: 3296810248</span
+                    >
+                  </div>
+                  <div class="rcnt-pro-rght flex-grow-1">
+                    <span
+                      style="font-size: 14px; color: #000000; font-weight: bold"
+                      >$89.00</span
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="pbsr-rcnt-pro-items d-flex justify-content-between gap-3 mb-3"
+                >
+                  <div class="rcnt-pro-lft">
+                    <img src="img/campaign.jpg" alt="" />
+                  </div>
+                  <div class="rcnt-pro-mdl d-flex flex-column">
+                    <span
+                      style="
+                        font-size: 14px;
+                        color: #000000;
+                        font-weight: bold;
+                        letter-spacing: 0.54px;
+                      "
+                      >Campaign 1</span
+                    >
+                    <span style="font-size: 13px; color: #888888"
+                      >ID: 3296810248</span
+                    >
+                  </div>
+                  <div class="rcnt-pro-rght flex-grow-1">
+                    <span
+                      style="font-size: 14px; color: #000000; font-weight: bold"
+                      >$89.00</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- dashbord main article section end -->
+      </div>
+    </div>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
