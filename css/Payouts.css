@@ -453,3 +453,35 @@ body {
   background-color: #ddd;
   border-radius: 50%;
 }
+
+/* *
+=======================
+payouts page table css
+=======================
+* */
+.pbsr-dsh-main-lft {
+  width: 70%;
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 30px;
+  padding: 15px 10px;
+  background-color: #fff;
+}
+.withdraw-history-wrapper {
+}
+.withdraw-history-wrapper h6 {
+}
+.withdraw-history-wrapper table {
+  width: 100%;
+}
+.withdraw-history-wrapper table thead {
+}
+.withdraw-history-wrapper table thead tr {
+}
+.withdraw-history-wrapper table thead tr td {
+}
+.withdraw-history-wrapper table tbody {
+}
+.withdraw-history-wrapper table tbody tr {
+}
+.withdraw-history-wrapper table tbody tr td {
+}
