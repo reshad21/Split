@@ -301,19 +301,6 @@ body {
   background: #555;
 }
 
-.pbsr-dsh-main-rght {
-  position: relative;
-}
-.pbsr-dsh-main-rght::after {
-  content: "";
-  width: 100%;
-  height: 70px;
-  background-color: #ffffffcc;
-  bottom: 0px;
-  left: 0px;
-  position: absolute;
-  border-radius: 0px 0px 30px 30px;
-}
 .pbsr-rcnt-pro {
   padding: 20px 15px;
   max-height: 409px;
@@ -340,6 +327,21 @@ body {
   background-color: #00000047;
 }
 
+/* ================= */
+.pbsr-rcnt-pro {
+  position: relative;
+}
+.pbsr-rcnt-pro::after {
+  content: "";
+  width: 100%;
+  height: 70px;
+  background-color: #ffffffcc;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  border-radius: 0px 0px 30px 30px;
+}
+
 .rcnt-pro-lft img {
   width: 40px;
   height: 40px;
@@ -351,4 +353,103 @@ body {
 .rcnt-pro-rght {
   padding-left: 30px;
   padding-right: 10px;
+}
+
+/* 
+ *
+    ==================
+    payouts page css
+    ==================
+ *
+ */
+
+.pbsr-dsh-main-rght {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.paymentmethod {
+  padding: 20px 15px;
+  max-height: 409px;
+  /* overflow-y: scroll; */
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 30px 40px #0000001a;
+}
+.paymentmethod h6 {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.paymentmethod .payment-mtod-first {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.paymentmethod .payment-mtod-first i {
+  background-color: #1373fc;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+}
+.paymentmethod .payment-mtod-first img {
+  width: 94px;
+  height: 55px;
+}
+.paymentmethod .payment-mtod-scnd {
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 10px;
+  padding: 15px 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.paymentmethod .payment-mtod-scnd {
+  position: relative;
+}
+.paymentmethod .payment-mtod-scnd i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 21px;
+  color: #7c7b7b;
+}
+.paymentmethod .payment-mtod-scnd input[type="email"] {
+  border: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #b7b7b7;
+  padding-left: 44px;
+}
+.paymentmethod .payment-mtod-third {
+  box-shadow: 0px 10px 20px #0000001a;
+  border-radius: 10px;
+  padding: 15px 10px;
+  background-color: #fff;
+}
+.paymentmethod .payment-mtod-third img {
+  display: inline-block;
+  width: 120px;
+  /* height: 24px; */
+  padding-left: 45px;
+}
+.payment-mtod-third {
+  position: relative;
+}
+.payment-mtod-third::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
 }
