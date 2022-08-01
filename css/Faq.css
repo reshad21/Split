@@ -652,3 +652,23 @@ button.accordion.is-open {
   margin-bottom: 10px;
   margin-top: -7px;
 }
+
+.pbsr-hdr-btm-rght.payout-btn.faq {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pbsr-hdr-btm-rght.payout-btn.faq a:nth-child(1) {
+  color: #2222229c;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  background-image: inherit;
+}
+.pbsr-hdr-btm-rght.payout-btn.faq a:nth-child(2) {
+  background-image: inherit;
+  color: #22222294;
+  background-color: #fff;
+}
+.pbsr-hdr-btm-rght payout-btn faq a:nth-child(2) > i {
+}
