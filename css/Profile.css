@@ -286,3 +286,15 @@ button.refresh-btn {
 .pfl-dvice-section .divice-items:last-child {
   border: none;
 }
+/* extra css code */
+.logout-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+}
+.logout-sec a i {
+  font-size: 36px;
+  color: #222;
+}
