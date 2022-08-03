@@ -229,7 +229,8 @@ button.refresh-btn {
   cursor: pointer;
 }
 
-.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-clock {
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-clock,
+.dsh-fitering-sec .fltr-wrp .fltr-wrp-drp i.fa-bullhorn {
   position: absolute;
   color: #000;
   font-size: 14px;
@@ -256,6 +257,12 @@ button.refresh-btn {
   background-color: #fff;
   border-radius: 5px;
   display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 5px 9px 20px #6e6a6aa3;
 }
 .dsh-fitering-sec .fltr-wrp .fltr-wrp-drp .fltr-wrap-opt.active {
   display: block;

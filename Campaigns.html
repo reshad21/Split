@@ -131,17 +131,17 @@
           <div class="dsh-fitering-sec">
             <div class="fltr-wrp">
               <span>Hourly</span>
-              <div class="fltr-wrp-drp">
+              <div class="fltr-wrp-drp" id="hourly">
                 <div class="fltr-hrly-head">
                   <i class="far fa-clock"></i>
                   <input
                     type="text"
                     placeholder="Hourly"
                     readonly
-                    id="hourly"
+                    id="hrlyinput"
                   />
                 </div>
-                <div class="fltr-wrap-opt" id="hrlopt">
+                <div class="fltr-wrap-opt" id="hourly_dp">
                   <div class="fltr-wrp-items" onclick="show('html')">html</div>
                   <div class="fltr-wrp-items" onclick="show('css')">css</div>
                   <div class="fltr-wrp-items" onclick="show('php')">php</div>
@@ -152,49 +152,49 @@
 
             <div class="fltr-date icon">
               <span>Date</span>
-              <div class="fltr-date">
-                <input type="date" id="birthday" name="birthday" />
+              <div class="fltr-date" id="birthday">
+                <input type="date" name="birthday" class="d-block" />
               </div>
             </div>
 
             <div class="fltr-wrp">
               <span>Campaigns</span>
-              <div class="fltr-wrp-drp">
+              <div class="fltr-wrp-drp" id="Campaigns">
                 <div class="fltr-hrly-head">
-                  <i class="far fa-clock"></i>
+                  <i class="fa fas fa-bullhorn"></i>
                   <input
                     type="text"
-                    placeholder="Campaigns"
+                    placeholder="Hourly"
                     readonly
-                    id="hourly"
+                    id="Campinput"
                   />
                 </div>
-                <div class="fltr-wrap-opt" id="hrlopt">
-                  <div class="fltr-wrp-items" onclick="show('html')">html</div>
-                  <div class="fltr-wrp-items" onclick="show('css')">css</div>
-                  <div class="fltr-wrp-items" onclick="show('php')">php</div>
-                  <div class="fltr-wrp-items" onclick="show('js')">js</div>
+                <div class="fltr-wrap-opt" id="Camp_dp">
+                  <div class="fltr-wrp-items" onclick="camp('html')">html</div>
+                  <div class="fltr-wrp-items" onclick="camp('css')">css</div>
+                  <div class="fltr-wrp-items" onclick="camp('php')">php</div>
+                  <div class="fltr-wrp-items" onclick="camp('js')">js</div>
                 </div>
               </div>
             </div>
 
             <div class="fltr-wrp">
               <span>Traffic Sources</span>
-              <div class="fltr-wrp-drp">
+              <div class="fltr-wrp-drp" id="trfisrce">
                 <div class="fltr-hrly-head">
-                  <i class="far fa-clock"></i>
+                  <i class="fa fas fa-bullhorn"></i>
                   <input
                     type="text"
-                    placeholder="Traffic Sources"
+                    placeholder="Hourly"
                     readonly
-                    id="hourly"
+                    id="trfisrceinput"
                   />
                 </div>
-                <div class="fltr-wrap-opt" id="hrlopt">
-                  <div class="fltr-wrp-items" onclick="show('html')">html</div>
-                  <div class="fltr-wrp-items" onclick="show('css')">css</div>
-                  <div class="fltr-wrp-items" onclick="show('php')">php</div>
-                  <div class="fltr-wrp-items" onclick="show('js')">js</div>
+                <div class="fltr-wrap-opt" id="trfisrce_dp">
+                  <div class="fltr-wrp-items" onclick="trfic('html')">html</div>
+                  <div class="fltr-wrp-items" onclick="trfic('css')">css</div>
+                  <div class="fltr-wrp-items" onclick="trfic('php')">php</div>
+                  <div class="fltr-wrp-items" onclick="trfic('js')">js</div>
                 </div>
               </div>
             </div>
@@ -423,6 +423,8 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="js/dashbord.js"></script>
   </body>
 </html>
 <!-- 
